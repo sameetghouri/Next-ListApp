@@ -1,12 +1,13 @@
+import { Link } from 'next/link';
 const Nav = () => {
-    return ( <nav>
+    return (<nav>
         <div>
-            <h1>Fork List</h1>
+        <h1>Fork List</h1>
         </div>
-        <a>Home</a>
-        <a>About</a>
-        <a>Fork Listing</a>
-    </nav> );
+        <Link href="/" >Home</Link>
+        <Link href="/about" >About</Link>
+        <Link href="/forks" >Fork Listing</Link>
+
+    </nav>);
 }
- 
 export default Nav;
