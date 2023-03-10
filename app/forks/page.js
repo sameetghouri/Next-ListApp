@@ -3,5 +3,5 @@ const forks = () => {
         <h1>Forks</h1>
     </div> );
 }
- 
+
 export default forks;
