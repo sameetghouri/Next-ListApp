@@ -12,10 +12,9 @@ export default function Home() {
     <main >
       <Nav/>
      <h1>HomePage</h1>
+     <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        
      <Link href='/forks'>See Forks Listing</Link>
-    
-        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
     
      <Footer/>
     </main>
