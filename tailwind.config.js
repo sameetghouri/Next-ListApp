@@ -7,7 +7,10 @@ module.exports = {
   
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontfamily: {
+        nuni:['Nunito'],}
+    },
   },
   plugins: [],
 }

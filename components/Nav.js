@@ -1,6 +1,7 @@
 import Link  from 'next/link';
 const Nav = () => {
-    return (<nav>
+    return (
+    <nav className='my-4 mx-8 p-4 flex justify-end align-bottom border-b-2'>
         <div>
         <h1>Fork List</h1>
         </div>
