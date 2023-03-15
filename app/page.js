@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main >
       
-     <h1 className='text-red-500' >HomePage</h1>
+     <h1 className='text-2xl' >HomePage</h1>
      <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
         
      <Link href='/forks'>See Forks Listing</Link>

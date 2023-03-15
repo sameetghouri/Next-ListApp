@@ -1,6 +1,6 @@
 const forks = () => {
     return ( <div>
-        <h1>Forks</h1>
+        <h1 className='text-2xl'>Forks</h1>
     </div> );
 }
 
