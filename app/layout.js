@@ -10,11 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='bg-gray-100 text-gray-800 font-nuni max-w-5xl'>
+      <body className='bg-gray-100 flex justify-center'>
+        <main className=' text-gray-800 font-nuni max-w-7xl'>
         <Nav />
         {children}
         <Footer/>
-
+        </main>
       </body>
     </html>
   )
