@@ -5,9 +5,9 @@ const Nav = () => {
         <div className='mr-auto font-bold text-xl'>
         <h1>Fork List</h1>
         </div>
-        <Link href="/" >Home</Link>
-        <Link href="/about" >About</Link>
-        <Link href="/forks" >Fork Listing</Link>
+        <Link href="/" className='hover:text-sky-600'>Home</Link>
+        <Link href="/about" className='hover:text-sky-600' >About</Link>
+        <Link href="/forks" className='hover:text-sky-600'>Fork Listing</Link>
 
     </nav>);
 }
