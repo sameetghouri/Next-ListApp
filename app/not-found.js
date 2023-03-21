@@ -6,9 +6,9 @@ import { useEffect } from "react";
 const notFound = () => {
     const router = useRouter();
     useEffect(() => {
-        setTimeout(() => {
-            router.push("/");
-        }, 3000);
+        // setTimeout(() => {
+        //     router.push("/");
+        // }, 3000);
     }, []);
     return ( <div className="h-screen w-full flex flex-col items-center justify-center">
         <h1 className="text-3xl">404</h1>

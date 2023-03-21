@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='bg-gray-100 flex justify-center'>
-        <main className=' text-gray-800 font-nuni max-w-7xl'>
+        <main className=' text-gray-800 w-full font-nuni max-w-6xl'>
         <Nav />
         {children}
         <Footer/>
