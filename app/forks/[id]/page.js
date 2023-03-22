@@ -11,14 +11,19 @@ export const getStaticPaths = async () => {
         fallback: false
     }
 }
-const Details = async (contex) => {
-    const id = contex.params.id;
-    const res = await fetch('https://jsonplaceholder.typicode.com/users'+id);
-    const udata = await res.json();
-    return ( <div>
-        <h1>{udata.name}</h1>
-        <p>{udata.email}</p>
-        <p>{udata.website}</p>
+
+const Details = async(props) => {
+    const id = props.params.id;
+          const res = await fetch("https://jsonplaceholder.typicode.com/users/"+id);
+          const udata = await res.json();
+    
+    return (
+         <div className="flex flex-col gap-4 items-center ">
+        <h1 className="text-xl font-semibold">{udata?.name }</h1>
+        <p className="text-lg">{`Email: ${udata?.email}` }</p>
+        <p className="text-lg">{`Website: ${udata?.website}` }</p>
+        <p className="text-lg">{`City: ${udata?.address.city}` }</p>
+        
     </div> );
 }
  
