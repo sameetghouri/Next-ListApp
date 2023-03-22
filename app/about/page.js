@@ -5,7 +5,7 @@ const About = () => {
             <Head>
                 <title>About</title>
             </Head>
-            <div className='flex flex-col items-center px-4 text-xl'>
+            <div className='flex flex-col items-center px-4 text-xl gap-2'>
                 <h1 className='text-2xl pb-4'>About</h1>
                 <p>Next.js is a popular React-based framework used for building web applications, and it has undergone several updates and changes since its inception. In this blog, we will explore the history of Next.js and its evolution over time.</p>
 
@@ -19,7 +19,13 @@ const About = () => {
 
                 <p>In 2020, Next.js 9 was released, which added support for API routes and improved performance. API routes made it easy to create RESTful APIs and serverless functions within a Next.js application, further simplifying the development process.</p>
 
-                <p>In 2021, Next.js 10 was released, which introduced several new features, including automatic image optimization, internationalized routing, and improved support for serverless functions. Automatic image optimization allowed images to be optimized on the fly, resulting in faster load times and better performance. Internationalized routing made</p>
+                <p>In December 2020, Next.js 10 was released, which introduced several new features, including automatic image optimization, internationalized routing, and improved support for serverless functions. Automatic image optimization allowed images to be optimized on the fly, resulting in faster load times and better performance. Internationalized routing made</p>
+                <p>In June 2021 Next.js 11 was release .It includes     Added support for Web Vitals, allowing developers to measure and improve key user experience metrics.
+                    Introduced a new React 18-based server components feature for more efficient rendering and better performance.
+                    Improved developer experience with faster builds, improved error handling, and better TypeScript support. </p>
+                <p>In November 2021 Next.js 12 was release . It Includes     Introduced Font Optimization for faster and more efficient loading of fonts.
+                    Added support for Incremental Static Regeneration (ISR) for even faster performance of static sites with dynamic data.
+                    Improved build performance with faster incremental builds and optimized caching.</p>
             </div>
         </>);
 }

@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Forks Listing | Home</title>
       </Head>
-      <div className='flex flex-col items-center px-4 text-xl'>
+      <div className='flex flex-col items-center px-4 text-xl gap-2'>
 
         <h1 className='text-2xl  pb-4' >Home</h1>
         <p>Next.js is a popular open-source JavaScript framework that has gained a lot of popularity among web developers in recent years. It is built on top of the React library and provides a robust set of features for building scalable and performant web applications. In this blog post, we'll take a closer look at what Next.js is and why you should consider using it for your next project.</p>
