@@ -11,9 +11,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='bg-gray-100 flex justify-center'>
-        <main className=' text-gray-800 w-full font-nuni max-w-6xl'>
+        <main className=' text-gray-800 w-full font-nuni min-h-screen max-w-6xl'>
+       <div className='min-h-screen'>
         <Nav />
         {children}
+        </div>
         <Footer/>
         </main>
       </body>
