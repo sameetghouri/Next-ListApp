@@ -17,7 +17,7 @@ const Details = async(props) => {
           const res = await fetch("https://jsonplaceholder.typicode.com/users/"+id);
           const udata = await res.json();
     
-    return (
+    return ( 
          <div className="flex flex-col gap-4 items-center ">
         <div className="bg-gray-400 rounded py-20 px-12 hover:scale-105 transition duration-200">
         <h1 className="text-xl font-semibold">{udata?.name }</h1>
