@@ -10,7 +10,10 @@ const Nav = () => {
         <div className='mr-auto'>
         <Image src="/logo.png" alt='logo' width={60} height={60} />
         </div>
-        
+        <Link href="/" className={`${path==="/" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Home</Link>
+        <Link href="/about" className={`${path==="/about" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`} >About</Link>
+        <Link href="/forks" className={`${path==="/forks" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Fork Listing</Link>
+
     </nav>);
 }
 export default Nav;
