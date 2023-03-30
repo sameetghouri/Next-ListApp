@@ -24,6 +24,10 @@ const Details = async(props) => {
         <p className="text-lg">{`Email: ${udata?.email}` }</p>
         <p className="text-lg">{`Website: ${udata?.website}` }</p>
         <p className="text-lg">{`City: ${udata?.address.city}` }</p>
+        
+
+        
+        
         </div>
     </div> );
 }
