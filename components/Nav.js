@@ -13,6 +13,7 @@ const Nav = () => {
         <Link href="/" className={`${path==="/" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Home</Link>
         <Link href="/about" className={`${path==="/about" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`} >About</Link>
         <Link href="/forks" className={`${path==="/forks" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Fork Listing</Link>
+        <Link href="/courses" className={`${path==="/courses" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Courses</Link>
 
     </nav>);
 }

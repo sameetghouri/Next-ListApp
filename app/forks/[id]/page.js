@@ -1,15 +1,10 @@
-export const getStaticPaths = async () => {
+export const generateStaticParams = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/users');
     const fdata = await res.json();
-    const paths = fdata.map(item => {
-        return {
-            params: {id: item.id.toString()}
-        }
-    })
-    return {
-        paths,
-        fallback: false
-    }
+    
+    return fdata.map(item => ({id: item.id.toString()}) 
+        )
+    
 }
 
 const Details = async(props) => {
@@ -24,9 +19,6 @@ const Details = async(props) => {
         <p className="text-lg">{`Email: ${udata?.email}` }</p>
         <p className="text-lg">{`Website: ${udata?.website}` }</p>
         <p className="text-lg">{`City: ${udata?.address.city}` }</p>
-        
-
-        
         
         </div>
     </div> );
