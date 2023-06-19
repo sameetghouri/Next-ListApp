@@ -13,7 +13,7 @@ const CourseSearch = ({getSearchResults}) => {
         <input type="text" className="my-2 p-2 rounded" 
         placeholder="Search Course"
         value={query} onChange={(e)=>setquery(e.target.value)}/>
-        <button type="submit" className="py-1 px-2 bg-cyan-500 rounded">Submit</button>
+        <button type="submit" className="mt-1 py-1 px-2 bg-cyan-500 rounded">Submit</button>
         </form>
     </div> );
 }
