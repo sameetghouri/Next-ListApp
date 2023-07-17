@@ -14,6 +14,7 @@ const Nav = () => {
         <Link href="/about" className={`${path==="/about" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`} >About</Link>
         <Link href="/forks" className={`${path==="/forks" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Fork Listing</Link>
         <Link href="/courses" className={`${path==="/courses" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Courses</Link>
+        <Link href="/reduxtoolkit" className={`${path==="/reduxtoolkit" ? "text-sky-600 font-semibold" : "hover:text-sky-600 font-semibold"}`}>Redux Toolkit</Link>
 
     </nav>);
 }
